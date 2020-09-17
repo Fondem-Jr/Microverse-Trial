@@ -30,14 +30,25 @@
          <select id="dropdown" >
            <option value= "Male">Male</option>
            <option value= "Female">Female</option>
-         </select>
+         </select><br>
          <label for="country">Country Visited</label>
           <fieldset id="country" >
-            <label for="Nigeria"><input type ="radio" name="Nigeria" id="Nigeria" value="Nigeria" required>Nigeria</label>
-        
+            <label for="r_Nigeria"><input type ="radio" name="Nigeria" id="Nigeria" value="Nigeria" required>Nigeria</label>
+            <label for="r_South Africa"><input type ="radio" name="South Africa" id="South Africa" value="South Africa" required>South Africa</label>
+          </fieldset><br>
 
+          <label for="Fruits">The fruits you love:</label>
+          <fieldset id="Fruits">
+            <legend>(<em>Check all that apply</em>)</legend>
+            <label for="<Pear"><input type="checkbox" name="Fruits" id="Pear" value="Pear">Pear</label>
+            <label for="Mango"><input type="checkbox" name="Fruits" id="Mango" value="Mango">Mango</label>
+            <label for="Apple"><input type="checkbox" name="Fruits" id="Apple" value="Apple">Apple</label>
+          </fieldset><br>
 
-          </fieldset>
+          <label for="comments">Any Comments or Suggestions?</label><br>
+        <textarea id="comments" placeholder="enter a comment"></textarea>
+      </section><br>
+      <button id="submit">submit</button>
 
     </form>
 
