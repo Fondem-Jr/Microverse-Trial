@@ -17,17 +17,27 @@
     <p id="description">Please fill in the information above</p>
 
     <form id="survey-form"> 
-        <label for ="name"> Name:</label>
-        <input id = "name" type="text" required>
+        <label id="name-label" for ="name"> Name:</label>
+        <input id = "name" type="text" placeholder="Enter your name" required>
         <br>
-        <label for="email"> Email:</label>
-        <input id ="email" type= "email" required>
+        <label id="email-label" for="email"> Email:</label>
+        <input id ="email" type= "email" placeholder="Enter your Email" required>
         <br>
-        <label for ="number"> Age</label>
-        <input id="number" type = number required>
+        <label id="number-label" for ="number"> Age</label>
+        <input id="number" type = number placeholder="Enter your age" required min="1" max="20">
         <br>
+         <label for="dropdown">Gender</label>
+         <select id="dropdown" >
+           <option value= "Male">Male</option>
+           <option value= "Female">Female</option>
+         </select>
+         <label for="country">Country Visited</label>
+          <fieldset id="country" >
+            <label for="Nigeria"><input type ="radio" name="Nigeria" id="Nigeria" value="Nigeria" required>Nigeria</label>
+        
 
 
+          </fieldset>
 
     </form>
 
